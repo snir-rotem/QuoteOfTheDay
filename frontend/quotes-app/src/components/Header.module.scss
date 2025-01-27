@@ -1,0 +1,39 @@
+.headerContainer {
+
+    max-width: 300px;
+    margin: auto;
+}
+
+.header {
+    font-size: 2rem;
+    font-family: 'comic sans ms';
+    color: #df57d0
+}
+
+.autocomplete {
+    width: 100%;
+    outline: #df57d0;
+    margin-bottom: 1rem;
+}
+
+.select {
+    width: 100%;
+    outline: #df57d0;
+    margin-bottom: 1rem;
+}
+
+.refreshButton {
+    background-color: #df57d0;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 1rem;
+    width: 100%;
+
+    &:hover {
+        color: #df57d0 !important
+    }
+}
